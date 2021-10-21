@@ -1,0 +1,17 @@
+.button1:hover {
+    transition-duration: 0.2s;
+    background-color: rgb(7, 163, 7);
+    color: #fff;
+}
+
+.button2:hover {
+    transition-duration: 0.2s;
+    color: #fff;
+    background-color: rgb(7, 163, 7);
+}
+
+/* @media (min-width: 700px) {
+    .plasticCard {
+      display: flex;
+    }
+  } */

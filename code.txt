@@ -1,0 +1,137 @@
+       practical kart
+flask shell
+from models import *
+Kartlar('https://www.bankrespublika.az/uploads/Mover%20Visa%20Premium.png',True, True, 'Mover Visa Platinium','Bank Respublika e-ticarətdə liderlərdən biri olan Mover ilə birgə yeni sərfəli "Mover Visa Platinium" kobrend kartını təklif edir.',' Qiymət', 'Qiymət', 'Qiymət', '',         '',       '',       '1 illik 25 azn','2 illik 40 azn', '3 illik 50 azn', '',    '',    '', 1, 2, 2, 2).save()
+                                                                image_url,  button1,button2,   title,                 description,                                                                                                                          subTitle1,subTitle2,subTitle3,subTitle4, subTitle5,subTitle6, price1,          price2,           price3,          price4,price5,price6)
+
+NOVLER1{
+    Novler1('Kredit').save()
+    Novler1('Debit').save()
+    Novler1('Taksit').save()
+    Novler1('Köçürmələr üçün').save()
+}
+
+NOVLER2{
+    Novler2('Mastercard').save()
+    Novler2('Visa').save()
+}
+  
+NOVLER3{
+    Novler3('Classic').save()
+    Novler3('Gold').save()
+    Novler3('Premium').save()
+}
+
+NOVLER4{
+    Novler4('AZE').save()
+    Novler4('DOLLAR').save()
+    Novler4('EURO').save()
+}
+
+ 
+    I kart
+flask shell
+from models import *
+Kartlar('https://www.bankrespublika.az/uploads/Mover%20Visa%20Premium.png',True, True, 'Mover Visa Platinium','Bank Respublika e-ticarətdə liderlərdən biri olan Mover ilə birgə yeni sərfəli "Mover Visa Platinium" kobrend kartını təklif edir.',' Qiymət', 'Qiymət', 'Qiymət', '','','', '1 illik 25 azn','2 illik 40 azn', '3 illik 50 azn', '', '','', 1 ).save()
+
+    II kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/Mover%20Visa%20Classic.png',True, True, 'Mover Visa Classic','Bank Respublika e-ticarətdə liderlərdən biri olan Mover ilə birgə yeni sərfəli "Mover Visa Classic" kobrend kartını təklif edir.', 'Qiymət', 'Qiymət', 'Qiymət', '','','', '1 illik 10 azn','2 illik 15 azn', '3 illik 20 azn', '', '','',2 ).save()
+
+    III kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/DG_new_screen/card%20thumbs%20for%20website.png',True, True,'Digital Card (Rəqəmsal Kart)', 'Visa Digital Card məhsulu banka gəlmədən birbaşa Mobil Şöbə əlavəsində aktivləşdirilə bilər. Kartdan həmçinin bankın müştərisi olmayan istifadəçilərdə faydalana bilərlər.','Buraxılma haqqı', 'İstifadə müddəti', 'İlkin mədaxil', 'Valyuta','','', 'Pulsuz','1 il', '0 AZN', 'AZN','', '' ).save()
+
+
+    IV kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/salary%20card.png',True, True,'MasterCard Unembossed ', '','İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı', 'Cash-back bonuslar','','1 / 2 / 3  il - 500 AZN/ 250 USD (EUR)', '5 il - 1 000 AZN/ 500 USD (EUR)','2 000 AZN / EUR / USD', '9 / 15/ 20 / 30 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+
+    V kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/debet.png',True, True,'MasterCard Debit ', '','İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı', 'Cash-back bonuslar','','1 / 2 / 3  il - 500 AZN/ 250 USD (EUR)', '5 il - 1 000 AZN/ 500 USD (EUR)','2 000 AZN / EUR / USD', '9 / 15/ 20 / 30 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+    VI kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/100il.png',True, True,'MasterCard Platinum - Cümhuriyyət 100 il.', '','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı', 'Cash-back bonuslar','Priority Pass kartının xidmətləri','','3 000 AZN/EUR/USD - dək', '50 000 AZN/EUR/USD','60 AZN/EUR/USD - (ilkin mədaxil olmadan)', '25%-dək', 'Karta daxildir','' ).save()
+
+
+
+    VII kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/paykart.png',True, True,'PayKart Kredit', '','Taksit imkanı', 'Partnyor şəbəkəsində %', 'Kredit xətti', 'Nağdlaşdırma limiti','','','Taksit (3,6,9,12)', '0%','500-3000 AZN', 'Kredit xəttinin 30%','', '' ).save()
+
+
+    VIII kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/ilk%20kart%20boy.png',False, True,'İlk Kart (Boy) ', '','Yaş həddi', 'Buraxılma forması', 'Təqdim olunan sənədlər', 'Cash-back bonuslar','','','14-18 yaş', 'Əlavə kart','Şəxsiyyət vəsiqəsi və ya doğum haqqında şəhadətnamə', '25%-dək','', '' ).save()
+
+
+
+
+    IX kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/ilk%20kart%20girl.png',False, True,'İlk Kart (Boy)', '','Yaş həddi', 'Buraxılma forması', 'Təqdim olunan sənədlər', 'Cash-back bonuslar','','','14-18 yaş', 'Əlavə kart','Şəxsiyyət vəsiqəsi və ya doğum haqqında şəhadətnamə', '25%-dək', '','' ).save()
+
+    X kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/Virtual%20Card.png',True, True,'Visa Virtual', '','İlkin mədaxil', 'Buraxılma haqqı', 'Kartın müddəti', '','','','0', '9 / 11/ 15 / 20 AZN','1 / 2 / 3 / 5 il', '', '','' ).save()
+
+
+    XI kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/priority%20pass.png',True, True,'Priority Pass', '','VİP zalların istifadəsi','Grup şəklində keçid imkanı', 'VİP-zalın bir dəfəlik istifadə', 'Buraxılma qiyməti','','','500-dən çox hava limanı', '10 nəfərə kimi','30 USD', '50 AZN', '','' ).save()
+
+
+    XII kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/Visa%20Platinum.png',False, True,'VISA Platinum', 'Statusunuzu daim vurğulayın!','İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı','Cash-back bonuslar','','1 / 2 / 3  il - 2 000 AZN/ 1 000 USD (EUR)', '5 il - 3 000 AZN/ 1 500 USD (EUR)','50 000 AZN/USD', '20 / 30/ 40 / 60 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+
+    XIII kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/MC%20Platinum.png',False, True,'MasterCard Platinum', '','İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı','Cash-back bonuslar','','1 / 2 / 3  il - 2 000 AZN/ 1 000 USD (EUR)', '5 il - 3 000 AZN/ 1 500 USD (EUR)','50 000 AZN/USD', '20 / 30/ 40 / 60 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+
+    IX kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/Visa%20Gold.png',True, True,'VISA Gold','', 'İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı','Cash-back bonuslar','','1 / 2 / 3  il - 1 000 AZN/ 500 USD (EUR)', '5 il - 2 000 AZN/ 1 000 USD (EUR)','20 000 AZN/USD', '15 / 20/ 30 / 40 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+
+    IIX kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/MC%20Gold.png',True, True,'MasterCard Gold','', 'İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı','Cash-back bonuslar','','1 / 2 / 3  il - 1 000 AZN/ 500 USD (EUR)', '5 il - 2 000 AZN/ 1 000 USD (EUR)','20 000 AZN/USD', '15 / 20/ 30 / 40 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+
+
+    IIIX kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/Visa%20Classic.png',True, True,'VISA Classic','', 'İlkin mədaxil','İlkin mədaxil', 'Kredit xətti','Buraxılma haqqı', 'Cash-back bonuslar','','1 / 2 / 3  il - 1 000 AZN/ 500 USD (EUR)', '5 il - 2 000 AZN/ 1 000 USD (EUR)','20 000 AZN/USD', '15 / 20/ 30 / 40 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+
+
+    XIV kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/visa%20infinite.png',True, True,'Visa Infinite','', 'İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı','Buraxılma haqqı','Cash-back bonuslar','1 / 2 / 3  il - 30 000 AZN/ 15 000 USD (EUR)', '5 il - n/a','100 000 AZN / USD', '1 / 2 / 3  il - 100 / 200/ 300 AZN - (ilkin mədaxil olmadan)', '25%-dək', '5 il - n/a' ).save()
+
+
+    XV kart
+
+Kartlar('https://www.bankrespublika.az/uploads/MC%20Standart.png',True, True,'MasterCard Standard','', 'İlkin mədaxil','İlkin mədaxil', 'Kredit xətti','Buraxılma haqqı', 'Cash-back bonuslar','','1 / 2 / 3 il - 500 AZN/ 250 USD', '5 il - 1 000 AZN/ 500 USD (EUR)', '3 000 AZN / USD', '9 / 15/ 20 / 30 AZN - (ilkin mədaxil olmadan)', '25%-dək','' ).save()
+
+
+
+
+    XVI kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/world%20elite.png',True, True,'MasterCard World Elite','', 'İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı','Buraxılma haqqı','Cash-back bonuslar','1 / 2 / 3  il - 30 000 AZN/ 15 000 USD (EUR)', '5 il - n/a','100 000 AZN / USD', '1 / 2 / 3  il - 100 / 200/ 300 AZN - (ilkin mədaxil olmadan)', '25%-dək', '5 il - n/a' ).save()
+
+
+
+
+
+note 6-ci element daxil olur ve shekil boyukdu
+    XVI kart 
+
+Kartlar('https://www.bankrespublika.az/uploads/cards/black_edition.png',True, True,'MasterCard Black Edition','', 'İlkin mədaxil','İlkin mədaxil', 'Kredit xətti', 'Buraxılma haqqı','Buraxılma haqqı','Cash-back bonuslar','1 / 2 / 3  il - 30 000 AZN/ 15 000 USD (EUR)', '5 il - n/a','100 000 AZN / USD', '1 / 2 / 3  il - 100 / 200/ 300 AZN - (ilkin mədaxil olmadan)', '25%-dək', '5 il - n/a' ).save()
